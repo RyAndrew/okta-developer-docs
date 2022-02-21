@@ -12,7 +12,7 @@ This guide will walk you through integrating authentication into a React app wit
 - [Install Dependencies](#install-dependencies)
 - [Create a Custom Sign-In Form](#create-a-custom-sign-in-form)
 - [Create Routes](#create-routes)
-  - [`/`](#)
+  - [`/`](#index-page)
   - [`/protected`](#protected)
   - [`/login`](#login)
   - [`/login/callback`](#logincallback)
@@ -216,7 +216,7 @@ Some routes require authentication in order to render. Defining those routes is 
 - `/login`: Redirect to the org sign-in page.
 - `/login/callback`: A route to parse tokens after a redirect.
 
-### `/`
+### `/ - index page`
 First, create `src/Home.jsx` to provide links to navigate our app:
 
 `src/Home.jsx` using a function-based component:
